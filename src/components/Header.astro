@@ -1,0 +1,40 @@
+---
+import astroLogo from '../assets/astro.svg';
+import background from '../assets/background.svg';
+import LogoSvg from '../icons/Craneo.svg';
+
+---
+
+<header class="mx-auto w-full max-w-[1392px] px-4 py-4 bg-amber-600 shadow-lg">
+  <div class="flex justify-between items-center">
+   
+    <div class="flex flex-row gap-x-3 items-center">
+      <LogoSvg class="w-12 h-12" />
+      <div>
+        <p class="font-semibold text-2xl flex flex-row gap-x-2 text-white">
+          Julian
+          <span class="rounded bg-red-600 text-2xl px-2">2025</span>
+        </p>
+        <span class="uppercase font-light text-gray-200">
+          <a
+            href="https://github.com/withastro/astro"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Proyecto Personal
+          </a>
+        </span>
+      </div>
+    </div>
+
+    {/* Navegación o título al lado derecho */}
+    <nav>
+      <ul class="flex gap-x-6 text-white text-lg font-medium uppercase">
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Sobre mí</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
