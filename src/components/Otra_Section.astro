@@ -1,0 +1,418 @@
+---
+// src/pages/index.astro
+// Importamos los componentes necesarios
+import Layout from '../layouts/Layout.astro';
+import MatrixBackground from '../components/MatrixBackground.astro';
+import '../styles/global.css';
+
+---
+
+<Layout title="Portafolio Santiago Tulcan">
+  <MatrixBackground />
+  
+  <div class="container">
+    <!-- Header Section -->
+    <header class="header">
+      <div class="profile-image">
+        <img src="https://avatars.githubusercontent.com/u/204513818?s=400&u=c2f4b0ccbc1a4017e81dea45bfc4a9df5337dcca&v=4" alt="Santiago Tulcan" />
+      </div>
+      <div class="profile-info">
+        <h1 class="matrix-text">Santiago Tulcan</h1>
+        <h2 class="matrix-subtitle">Full Stack Developer</h2>
+        <p class="summary">Apasionado por la tecnología y el desarrollo de soluciones innovadoras en web y software. Experiencia en proyectos multidisciplinarios y liderazgo técnico.</p>
+      </div>
+    </header>
+
+    <section class="section">
+      <h2 class="section-title matrix-text">Contacto</h2>
+      <div class="contact-info">
+        <p><span class="matrix-label">Email:</span> juliansantiagotr06@gmail.com</p>
+        <p><span class="matrix-label">Teléfono:</span> 304 676 9340</p>
+        <p><span class="matrix-label">Ubicación:</span> Nariño, Colombia</p>
+        <div class="social-links">
+          <a href="https://github.com/JulianD27-ia" class="matrix-link">GitHub</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work Experience -->
+    <section class="section">
+      <h2 class="section-title matrix-text">Experiencia Laboral</h2>
+      
+      <div class="experience-item">
+        <h3 class="matrix-subtitle">Desarrollador Full Stack</h3>
+        <p class="date">Septiembre 2025 - Presente</p>
+        <p>Desarrollo de aplicaciones web modernas y escalables usando tecnologías de vanguardia.</p>
+        <ul>
+          <li>Implementación de microservicios</li>
+          <li>Optimización de rendimiento</li>
+        </ul>
+      </div>
+      
+      <div class="experience-item">
+        <h3 class="matrix-subtitle">Frontend Developer - WebSolutions</h3>
+        <p class="date">May 2018 - Ene 2022</p>
+        <p>Diseño y desarrollo de interfaces de usuario atractivas y funcionales.</p>
+        <ul>
+          <li>Migración a React</li>
+          <li>Mejora de accesibilidad</li>
+        </ul>
+      </div>
+      
+      <div class="experience-item">
+        <h3 class="matrix-subtitle">Junior Developer - SoftDev</h3>
+        <p class="date">Ene 2015 - Abr 2018</p>
+        <p>Participación en proyectos de software y soporte técnico.</p>
+        <ul>
+          <li>Automatización de procesos</li>
+          <li>Soporte a usuarios</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section class="section">
+      <h2 class="section-title matrix-text">Educación</h2>
+      <div class="education-item">
+        <h3 class="matrix-subtitle">Ingeniería Informática - Corporacion Universitaria Autonoma de Nariño</h3>
+        <p class="date">Agosto 2021 - Septiembre 2025</p>
+        <p>Promedio: 4.4</p>
+        <p>Cursos: Programación Avanzada, Bases de Datos</p>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section">
+      <h2 class="section-title matrix-text">Habilidades</h2>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3 class="matrix-subtitle">Frontend</h3>
+          <ul>
+            <li>HTML (Avanzado)</li>
+            <li>CSS (Avanzado)</li>
+            <li>JavaScript (Avanzado)</li>
+            <li>TypeScript (Avanzado)</li>
+            <li>React (Avanzado)</li>
+            <li>Next.js (Intermedio)</li>
+          </ul>
+        </div>
+        
+        <div class="skill-category">
+          <h3 class="matrix-subtitle">Backend</h3>
+          <ul>
+            <li>Node.js (Avanzado)</li>
+            <li>MySQL (Intermedio)</li>
+          </ul>
+        </div>
+        
+        <div class="skill-category">
+          <h3 class="matrix-subtitle">Herramientas</h3>
+          <ul>
+            <li>Git (Avanzado)</li>
+            <li>GitHub (Avanzado)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section">
+      <h2 class="section-title matrix-text">Proyectos</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3 class="matrix-subtitle">codes</h3>
+          <p>Historia interactiva con retos de programación para viajar a Marte</p>
+          <ul>
+            <li>Elige tu propia aventura</li>
+            <li>En desarrollo</li>
+          </ul>
+          <a href="https://codes.dev" class="matrix-link">Ver proyecto</a>
+        </div>
+        
+        <div class="project-card">
+          <h3 class="matrix-subtitle">programacion</h3>
+          <p>Retos de programación para todos los niveles</p>
+          <ul>
+            <li>Más de un millón de visitas</li>
+            <li>Multidioma</li>
+            <li>JavaScript & TypeScript</li>
+          </ul>
+          <a href="https://programacion.dev" class="matrix-link">Ver proyecto</a>
+        </div>
+        
+        <div class="project-card">
+          <h3 class="matrix-subtitle">proyectosdesarrollo</h3>
+          <p>Juego interactivo de programación con retos y secretos</p>
+          <ul>
+            <li>+2000 usuarios activos</li>
+            <li>Retos para cualquier lenguaje</li>
+          </ul>
+          <a href="https://proyectosdesarrollo.dev" class="matrix-link">Ver proyecto</a>
+        </div>
+        
+        <div class="project-card">
+          <h3 class="matrix-subtitle">codi.link</h3>
+          <p>Playground de código HTML, CSS y JavaScript para compartir</p>
+          <ul>
+            <li>100k visitas al mes</li>
+            <li>Desarrollado por la comunidad</li>
+          </ul>
+          <a href="https://codi.link" class="matrix-link">Ver proyecto</a>
+          <a href="https://github.com/codi-link" class="matrix-link">GitHub</a>
+        </div>
+        
+        <div class="project-card">
+          <h3 class="matrix-subtitle">Pruebas Técnicas</h3>
+          <p>Lista de pruebas técnicas de empresas para practicar programación</p>
+          <ul>
+            <li>100% gratuito</li>
+            <li>+500 pruebas disponibles</li>
+          </ul>
+          <a href="https://pruebastecnicas.com" class="matrix-link">Ver proyecto</a>
+          <a href="https://github.com/pruebastecnicas" class="matrix-link">GitHub</a>
+        </div>
+        
+        <div class="project-card">
+          <h3 class="matrix-subtitle">ponencia</h3>
+          <p>Conferencia de programación en streaming para la comunidad hispanohablante con charlas top</p>
+          <ul>
+            <li>+15k tickets repartidos</li>
+            <li>+50k espectadores en directo</li>
+          </ul>
+          <a href="https://paginaweb.com" class="matrix-link">Ver proyecto</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certificates & Awards -->
+    <section class="section">
+      <h2 class="section-title matrix-text">Certificados y Premios</h2>
+      <div class="awards-grid">
+        <div class="award-item">
+          <h3 class="matrix-subtitle">Premio al Mejor Proyecto Web</h3>
+          <p>TechNova - Nov 2021</p>
+          <p>Reconocimiento por el desarrollo de una plataforma innovadora.</p>
+        </div>
+        
+        <div class="award-item">
+          <h3 class="matrix-subtitle">Certificado en JavaScript Moderno</h3>
+          <p>OpenWebinars - May 2022</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Languages -->
+    <section class="section">
+      <h2 class="section-title matrix-text">Idiomas</h2>
+      <div class="languages">
+        <p><span class="matrix-label">Español:</span> Nativo</p>
+        <p><span class="matrix-label">Inglés:</span> Avanzado</p>
+      </div>
+    </section>
+  </div>
+</Layout>
+
+<style is:global>
+  /* Estilos globales con temática Matrix */
+  :root {
+    --matrix-green: #00ff41;
+    --matrix-dark: #000000;
+    --matrix-gray: #0d0208;
+    --matrix-light: #003b00;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: var(--matrix-dark);
+    color: var(--matrix-green);
+    font-family: 'Courier New', monospace;
+    line-height: 1.6;
+    overflow-x: hidden;
+    position: relative;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    position: relative;
+    z-index: 10;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--matrix-green);
+  }
+  
+  .profile-image {
+    margin-right: 2rem;
+  }
+  
+  .profile-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid var(--matrix-green);
+    object-fit: cover;
+  }
+  
+  .matrix-text {
+    color: var(--matrix-green);
+    text-shadow: 0 0 5px var(--matrix-green);
+    margin-bottom: 0.5rem;
+  }
+  
+  .matrix-subtitle {
+    color: var(--matrix-green);
+    margin-bottom: 0.5rem;
+  }
+  
+  .matrix-label {
+    font-weight: bold;
+    color: var(--matrix-green);
+  }
+  
+  .matrix-link {
+    color: var(--matrix-green);
+    text-decoration: none;
+    transition: text-shadow 0.3s;
+  }
+  
+  .matrix-link:hover {
+    text-shadow: 0 0 5px var(--matrix-green);
+  }
+  
+  .section {
+    margin-bottom: 3rem;
+  }
+  
+  .section-title {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--matrix-green);
+  }
+  
+  .contact-info p {
+    margin-bottom: 0.5rem;
+  }
+  
+  .social-links {
+    margin-top: 1rem;
+  }
+  
+  .social-links a {
+    margin-right: 1rem;
+  }
+  
+  .experience-item, .education-item {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: rgba(13, 2, 8, 0.7);
+    border: 1px solid var(--matrix-light);
+    border-radius: 5px;
+  }
+  
+  .date {
+    color: #008f11;
+    font-style: italic;
+    margin-bottom: 0.5rem;
+  }
+  
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .skill-category {
+    padding: 1rem;
+    background-color: rgba(13, 2, 8, 0.7);
+    border: 1px solid var(--matrix-light);
+    border-radius: 5px;
+  }
+  
+  .skill-category ul {
+    list-style-type: none;
+  }
+  
+  .skill-category li {
+    padding: 0.3rem 0;
+    border-bottom: 1px dotted var(--matrix-light);
+  }
+  
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .project-card {
+    padding: 1.5rem;
+    background-color: rgba(13, 2, 8, 0.7);
+    border: 1px solid var(--matrix-light);
+    border-radius: 5px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 255, 65, 0.2);
+  }
+  
+  .project-card h3 {
+    margin-bottom: 1rem;
+  }
+  
+  .project-card ul {
+    margin: 1rem 0;
+    padding-left: 1.5rem;
+  }
+  
+  .project-card a {
+    display: inline-block;
+    margin-right: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .awards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .award-item {
+    padding: 1rem;
+    background-color: rgba(13, 2, 8, 0.7);
+    border: 1px solid var(--matrix-light);
+    border-radius: 5px;
+  }
+  
+  .languages p {
+    margin-bottom: 0.5rem;
+  }
+  
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      text-align: center;
+    }
+    
+    .profile-image {
+      margin-right: 0;
+      margin-bottom: 1.5rem;
+    }
+    
+    .container {
+      padding: 1rem;
+    }
+  }
+</style>
